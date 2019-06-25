@@ -1,0 +1,17 @@
+%0 Journal Article
+%T {{ page.title }}
+%A {% assign lastone = page.author.last %}{% for person in page.author %}{{ person.given }} {{ person.family }}{% unless person == lastone %}
+%A {%endunless %}{% endfor %}
+%D {{ site.published | date: "%Y" }}{% if page.editor %}
+%E {% assign lastone = page.editor.last %}{% for person in page %}{{ person.given }} {{ person.family }}{% unless person == lastone %}
+%E {%endunless %}{% endfor %}	
+%F {{ id }}
+%I PDSA	
+%J Proceedings of Data Science Africa
+%P {{ page.firstpage }}--{{ page.lastpage }}{% if page.doi %}
+%R {{ page.doi }}{% endif %}
+%U {{ site.url }}
+%V {{ site.volume }}{% if page.number %}
+%N {{ page.number }}{% endif %}
+%W PDSA
+%X {{ page.abstract | replace: '<ol>', '' | replace: '</ol>', '' | replace: '<ul>', '' | replace: '</ul>', '' | replace: '<li>', '' | replace: '</li>', '' | replace: '<em>', '' | replace: '</em>', '' | replace: '<b>', '' | replace: '</b>', '' | replace: '&gt;', '>' | replace: '&lt;', '<' }}

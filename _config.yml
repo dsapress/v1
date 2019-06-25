@@ -1,0 +1,51 @@
+---
+series: Proceedings of Data Science Africa
+volume: 1
+start: 2019-06-25
+end: 2019-12-31
+comments: yes
+year: 2019
+shortname: PDSA
+editor:
+- given: Ciira wa
+  family: Maina
+- given: Dina
+  family: Machuve
+- given: Neil D. 
+  family: Lawrence
+title: Proceedings of Data Science Africa
+description: |
+  Proceedings of Data Science Africa
+
+  Published as Volume 1 by the Proceedings of Machine Learning Research on 11 March 2007.
+
+  Volume Edited by:
+    Ciira Wa Maina
+    Dina Machuve
+    
+  Series Editors:
+    Neil D. Lawrence
+url: http://proceedings.dsa.press
+baseurl: "/v1"
+twitter_username: dsa_org
+github_username: dsapress
+markdown: kramdown
+permalink: "/:title.html"
+github:
+  edit: true
+  repository: v1
+display:
+  copy_button:
+    bibtex: true
+    endnote: true
+    apa: true
+    ris: true
+  comments: false
+email: ''
+journal:
+  name: Gaussian Processes in Practice
+  url: http://proceedings.dsa.press/
+analytics:
+  google:
+    tracking_id: UA-XXXXXXXX-X
+---
