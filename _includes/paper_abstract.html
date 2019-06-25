@@ -4,7 +4,7 @@
   <div id="authors" class="authors">
     {% assign lastone = page.author | last %}
     {% for person in page.author %}
-    {% include listperson.html %}
+    {% include displayperson.html %}
     {% endfor %};
   </div>
 <div id="info" class="authors">
@@ -25,5 +25,4 @@
       {% endfor %}
     </ul>
   </div>
-  {{ content | markdownify }}
 </article>
