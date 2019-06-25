@@ -4,7 +4,7 @@
 %A {%endunless %}{% endfor %}
 %D {{ site.published | date: "%Y" }}{% if page.editor %}
 %E {% assign lastone = page.editor.last %}{% for person in page %}{{ person.given }} {{ person.family }}{% unless person == lastone %}
-%E {%endunless %}{% endfor %}	
+%E {%endunless %}{% endfor %}{% endif %}	
 %F {{ id }}
 %I PDSA	
 %J Proceedings of Data Science Africa
