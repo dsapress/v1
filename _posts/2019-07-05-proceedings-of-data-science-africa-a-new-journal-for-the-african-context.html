@@ -1,0 +1,116 @@
+---
+title: "Proceedings of Data Science Africa: A New Journal for the African Context"
+abstract: "Over two hundred years ago scientists began sharing their ideas through printed volumes, or journals. This enabled, for example, astronomers from different countries to find out about the discovery of new planets and to create the mathematics necessary for determining their orbit. Since then journals have also taken on other roles such as journal names acting as a proxy for research quality. While we recognize the need for measures of research quality, they are secondary to our aim. The Proceedings of Data Science Africa focuses on sharing best practice and innovation in Machine Learning, Artificial Intelligence and Data Science in the African context focused on the needs of African scientists and engineers. In this paper, we introduce the journal and its philosophy as well as providing practical advice on how to submit."
+pdf: http://proceedings.datascienceafrica.org/v//.pdf
+layout: article
+journal: Proceedings of Data Science Africa
+id: 
+month: 07
+firstpage: 1
+lastpage: 0
+page: 1-0
+order: 1
+author:
+- given: Neil D.
+  family: Lawrence
+  orcid: 0000-0001-9258-1030
+  email: n.lawrence@sheffield.ac.uk
+  affiliation: "University of Sheffield and Amazon"
+- given: John A.
+  family: Quinn
+  orcid: 
+  email: john.quinn@cit.ac.ug
+  affiliation: "Makerere University and Google AI"
+- given: Ciira wa
+  family: Maina
+  orcid: 0000-0003-4203-3129
+  email: ciira.maina@dkut.ac.ke
+  affiliation: "Dedan Kimathi University of Technology"
+- given: Martin
+  family: Mubangizi
+  orcid: 
+  email: mmubangizi@cit.ac.ug
+  affiliation: "UN Global Pulse"
+- given: Ernest
+  family: Mwebaze
+  orcid: 0000-0002-1305-6367
+  email: emwebaze@cit.ac.ug
+  affiliation: "Makerere University and Google AI"
+- given: Dina
+  family: Machuve
+  orcid: 0000-0002-8711-5948
+  email: dina.machuve@nm-aist.ac.tz
+  affiliation: "African Institute for Science and Technology"
+- given: Billy
+  family: Okal
+  orcid: 
+  email: okal.billy@gmail.com
+  affiliation: "Voyage"
+date: 2019-07-05
+publisher: PDSA
+volume: 
+published:
+  date-parts:
+  - 2019
+  - 07
+  - 05
+submitted:
+  date-parts:
+  - 
+  - 
+  - 
+# Format based on citeproc: http://blog.martinfenner.org/2013/07/30/citeproc-yaml-for-bibliographies/
+---
+
+<h1 id="introduction">Introduction</h1>
+<p>Welcome to the Proceedings of Data Science Africa. This is a new journal targeted at sharing ideas and innovation in <em>data science</em>, <em>machine learning</em> and <em>artificial intelligence</em> with a focus on the African context.</p>
+<p>Our aim is to showcase the most useful African research in these areas to improve communication of ideas and sharing of best practice.</p>
+<p>Our publications contain stories, each of our works needs to describe a problem, what was done to address the problem and what the conclusions were. But we accept that a single publication may not contain the whole story, indeed, that is why we are a community. We therefore encourage clear submission of negative results. Our shepherds will work with the authors to clarify what was tried, perhaps in the idea case we may even be able to help turn the result around.</p>
+<h2 id="what-can-i-publish-in-proceedings-of-dsa">What Can I publish in Proceedings of DSA?</h2>
+<p>The idea of PDSA is not to be too prescriptive of what is published, PDSA will be a resource for sharing of innovation, experience and ideas. In the first instance we envisage four different types of paper. We summarize them briefly below, highlighting what we expect the community to learn from the sharing of experience.</p>
+<ol type="1">
+<li><em>A note</em>: notes express opinions or comment. A letter might comment on recent papers, and how they can be usefully deployed in Africa, or it might provide comment on a ideas for student projects. Letters have a short turn-around and are typically less than 800 words in length.</li>
+<li><em>A deployment experience</em>: lessons learned from deploying data science applications in the field. Very often, the true story of a deployment is lost in an effort to polish a paper. We believe these lessons are valuable and should be shared. Only by understanding our errors and sharing them, can we learn to improve our deployments. Deployment experiences discuss more detail, and will typically be XXX words in length.</li>
+<li><em>A data set</em>: sharing of location, and the use of a data set. At PDSA we recognize that most of the work in a successful data science project is put into acquiring and cleaning data. The focus of a data set publication is documenting this work and advertising the availability of the data. We don’t host the data on our servers, but you can host it on data science platforms such as Zindi, Kaggle or OpenML. What we do host is the story of the data, how it was acquired and how it has been processed. Typically such a story ends with a simple analysis.</li>
+<li><em>An innovation</em>: this type of paper is like the more classical publication, where there is some innovation in process, or technical innovation, that is the main focus of the publication.</li>
+</ol>
+<h2 id="cost">Cost</h2>
+<p>There is no cost to publishing in PDSA other than your time, and that of the shepherds and the editors.</p>
+<h2 id="how-does-it-work">How Does it Work?</h2>
+<p>As a new journal, we also want to bring a new approach to the reviewing and presentation of manuscripts. Our view is that scientific publication is for furthering knowledge, not for assessing the quality of a particular individual or institution’s research through proxy-metrics.</p>
+<ol type="1">
+<li>Light touch: the publishing process should only include work for improving the quality of the paper.</li>
+<li>Rejection is a Failure: we do not accept all papers, but we view a paper rejection as a failure. Each rejection is reviewed to understand what went wrong.</li>
+<li>Curators and Facilitators: our reputation is founded on the utility of material we present that means our editors and shepherds act as curators and facilitators. We do not place barriers in authors’ paths, but we help nudge them in the direction where there message will be better understood.</li>
+<li>No longer than necessary:</li>
+</ol>
+<h1 id="laying-out-your-paper">Laying Out Your Paper</h1>
+<p>To make it easier to review the paper using code review techniques, and to ensure we can create a number of formats from your paper, we now review how to include code, references, figures, math etc in your submission.</p>
+<h2 id="code">Code</h2>
+<p>We encourage submission of code both within and alongside the paper. For code within the paper …</p>
+<p>In particular, we encourage placement of code nearby the mathematics or algorithm it corresponds to. This encourages understanding of both the mathematics and the code. For example if we were describing mean squared error we might write as follows:</p>
+<p>The mean squared error can be computed by summing across the data <br /><span class="math display">$$
+E(\mathbf{w}) = \frac{1}{n}\sum_{i=1}^n (y_i - f(\mathbf{x}_i))^2
+$$</span><br /> Where our implementation made use of python.</p>
+<pre class="{python}"><code>import numpy as np
+diff = y-f
+diff2 = diff*diff
+E = np.sum(diff2)/len(diff)</code></pre>
+<p>This helps the reader understand how the mathematics is mapping towards the code.</p>
+<p>Code should only be included in the main text of the paper if it is part of the narrative story of the work. Other code may be included in software libraries which can be investigated at leisure by the reader.</p>
+<h2 id="figures">Figures</h2>
+<p>We support figures created in two different formats: SVG and PNG. You can include your figure as follows.</p>
+<pre><code>![This is my figure caption.](./figure.svg)</code></pre>
+<h2 id="tables">Tables</h2>
+<p>Simple tables can be created in Markdown, we follow the github flavoured markdown spec for generating tables.<a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a></p>
+<h2 id="references">References</h2>
+<p>We use <code>pandoc-citeproc</code> for handling your citations. That means you need to provide your citations in a <code>yaml</code> file, alongside your submission. Each citation is then referenced as <code>@keyname</code> where <code>keyname</code> is the <code>id</code> in the <code>yaml</code> file.</p>
+<h1 id="conclusions">Conclusions</h1>
+<p>Proceedings of Data Science Africa is a new approach to publication focussed on sharing the innovations necessary to drive forward Artificial Intelligence, Machine Learning and Data Science on the African continent.</p>
+<section class="footnotes">
+<hr />
+<ol>
+<li id="fn1"><p>https://help.github.com/en/articles/organizing-information-with-tables<a href="#fnref1" class="footnote-back">↩</a></p></li>
+</ol>
+</section>
+

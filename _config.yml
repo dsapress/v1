@@ -17,15 +17,13 @@ title: Proceedings of Data Science Africa
 description: |
   Proceedings of Data Science Africa
 
-  Published as Volume 1 by the Proceedings of Machine Learning Research on 11 March 2007.
-
   Volume Edited by:
     Ciira Wa Maina
     Dina Machuve
     
   Series Editors:
     Neil D. Lawrence
-url: http://proceedings.dsa.press
+url: http://proceedings.datascienceafrica.org
 baseurl: "/v1"
 twitter_username: dsa_org
 github_username: dsapress
@@ -43,8 +41,8 @@ display:
   comments: false
 email: ''
 journal:
-  name: Gaussian Processes in Practice
-  url: http://proceedings.dsa.press/
+  name: Proceedings of Data Science Africa
+  url: http://proceedings.datascienceafrica.org/
 analytics:
   google:
     tracking_id: UA-XXXXXXXX-X

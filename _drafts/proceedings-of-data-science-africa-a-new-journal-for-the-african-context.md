@@ -1,39 +1,42 @@
 ---
 title: "Proceedings of Data Science Africa: A New Journal for the African Context"
 abstract: Over two hundred years ago scientists began sharing their ideas through printed volumes, or journals. This enabled, for example, astronomers from different countries to find out about the discovery of new planets and to create the mathematics necessary for determining their orbit. Since then journals have also taken on other roles such as journal names acting as a proxy for research quality. While we recognize the need for measures of research quality, they are secondary to our aim. The Proceedings of Data Science Africa focuses on sharing best practice and innovation in Machine Learning, Artificial Intelligence and Data Science in the African context focused on the needs of African scientists and engineers. In this paper, we introduce the journal and its philosophy as well as providing practical advice on how to submit.
-pdf: http://proceedings.dsa.press/v1/lawrence19a/lawrence19a.pdf
-layout: article
-series: Proceedings of Data Science Africa
-id: lawrence19a
-month: 0
-tex_title: "Data Science Africa: Example Paper"
-firstpage: 1
-lastpage: 2
-page: 1-2
-order: 1
 author:
 - given: Neil D.
   family: Lawrence
-  institute: University of Sheffield and Amazon
+  affiliation: University of Sheffield and Amazon
+  orcid: 0000-0001-9258-1030
+  email: n.lawrence@sheffield.ac.uk
 - given: John A.
   family: Quinn
-  institute: Makerere University and Google AI
+  affiliation: Makerere University and Google AI
+  orcid:
+  email: john.quinn@cit.ac.ug
 - given: Ciira wa
   family: Maina
-  institute: Dedan Kimathi University of Technology
+  affiliation: Dedan Kimathi University of Technology
+  orcid: 0000-0003-4203-3129
+  email: ciira.maina@dkut.ac.ke
 - given: Martin
   family: Mubangizi
-  institute: UN Global Pulse
+  affiliation: UN Global Pulse
+  orcid: 
+  email: mmubangizi@cit.ac.ug
 - given: Ernest
   family: Mwebaze
-  institute: Makerere University and Google AI
+  affiliation: Makerere University and Google AI
+  orcid: 0000-0002-1305-6367
+  email: emwebaze@cit.ac.ug
 - given: Dina
   family: Machuve
-  institute: African Institute for Science and Technology
+  affiliation: African Institute for Science and Technology
+  orcid: 0000-0002-8711-5948
+  email: dina.machuve@nm-aist.ac.tz
 - given: Billy
   family: Okal
-  institute: Voyage
-# Format based on citeproc: http://blog.martinfenner.org/2013/07/30/citeproc-yaml-for-bibliographies/
+  affiliation: Voyage
+  orcid:
+  email: okal.billy@gmail.com
 ---
 
 # Introduction
@@ -54,7 +57,6 @@ therefore encourage clear submission of negative results. Our
 shepherds will work with the authors to clarify what was tried,
 perhaps in the idea case we may even be able to help turn the result
 around.
-
 
 ## What Can I publish in Proceedings of DSA?
 
@@ -102,7 +104,6 @@ publication is for furthering knowledge, not for assessing the quality
 of a particular individual or institution's research through
 proxy-metrics.
 
-
 1. Light touch: the publishing process should only include work for
    improving the quality of the paper.
 2. Rejection is a Failure: we do not accept all papers, but we view a
@@ -139,6 +140,7 @@ $$
 Where our implementation made use of python.
 
 ```{python}
+import numpy as np
 diff = y-f
 diff2 = diff*diff
 E = np.sum(diff2)/len(diff)
@@ -159,6 +161,12 @@ can include your figure as follows.
 ```
 ![This is my figure caption.](./figure.svg)
 ```
+
+## Tables
+
+Simple tables can be created in Markdown, we follow the github flavoured markdown spec for generating tables.[^gfm]
+
+[^gfm]: https://help.github.com/en/articles/organizing-information-with-tables
 
 
 ## References
