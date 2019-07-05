@@ -15,6 +15,7 @@ BASENAME=$DATE-$FILENAME
 for EX in tex pdf html
 do
     pandoc $1 --template ../_templates/article-template \
+	   --number-sections \
 	   -o $BASENAME.$EX \
 	   --metadata=lastpage:$LASTPAGE \
 	   --metadata=firstpage:$FIRSTPAGE \

@@ -7,11 +7,6 @@ author:
   affiliation: University of Sheffield and Amazon
   orcid: 0000-0001-9258-1030
   email: n.lawrence@sheffield.ac.uk
-- given: John A.
-  family: Quinn
-  affiliation: Makerere University and Google AI
-  orcid:
-  email: john.quinn@cit.ac.ug
 - given: Ciira wa
   family: Maina
   affiliation: Dedan Kimathi University of Technology
@@ -37,6 +32,11 @@ author:
   affiliation: Voyage
   orcid:
   email: okal.billy@gmail.com
+- given: John A.
+  family: Quinn
+  affiliation: Makerere University and Google AI
+  orcid:
+  email: john.quinn@cit.ac.ug
 ---
 
 # Introduction
